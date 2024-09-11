@@ -5,3 +5,9 @@ edition = "2021"
 
 [dependencies]
 bevy = "0.14.2"
+bevy_rapier2d = { version = "0.27.0", features = [ "simd-stable", "debug-render-2d" ] }
+bevy_fmod = "0.5.0" 
+bevy_vello = "0.6"
+bevy_hanabi = "0.12"
+bevy_tweening = "0.11"
+bevy_magic_light_2d = "0.8.1"
